@@ -1,0 +1,26 @@
+body{
+  width: 600px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+ul{
+  list-style: none;
+}
+
+img{
+  float: left;
+}
+.preview{
+  float: right;
+  width: 400px;
+}
+a{
+  color: #276056;
+  font-style: italic;
+  font-size: 14px;
+}
+
+li{
+  display: inline;
+    font-size: 14px;
+}
