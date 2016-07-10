@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+<div class="container" id="main">
+
+	<div class="navbar navbar-fixed-top">
+
+		<div class="container">
+
+			<a class="navbar-brand" href="#">
+
+				<img src="images/logo.png" alt="Your logo"/></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+
+				<ul class="nav navbar-nav">
+
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+
+						<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+
+              			<li><a href="#">WebDesign</a></li>
+										<li><a href="#">Python</a></li>
+										<li><a href="#">Java</a></li>
+										<li><a href="#">Big Data</a></li>
+								</ul>
+            </li>
+
+				</ul>
+
+					<form class="navbar-form pull-left">
+						<input type="text" class="form-control" placeholder="Search your course" id="searchInput">
+						<button type="submit" class="btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</form>
+
+<ul class="nav navbar-nav pull-right">
+
+		<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+
+				<ul class="dropdown-menu">
+				   <li><a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a></li>
+				   <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a></li>
+				   <li><a href="#">Sign out</a></li>
+        </ul>
+		</li>
+</ul>
+
+ 	</div><!--End of container-->
+
+	</div><!--End of navbar-->
+
+</div><!--End of Container-->
+
+<div class="carousel slide" id="myCarousel">
+
+	<!-- indicator-->
+	<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+	</ol>
+
+		<div class="carousel-inner">
+
+					<div class="item active" id="slide1"/>
+							<div class="carousel-caption">
+							</div><!--end of carousel caption-->
+					</div><!--end of slide 1-->
+
+
+					<div class="item" id="slide2">
+							<div class="carousel-caption">
+							</div><!--end of carousel caption-->
+					</div><!--end of slide 2-->
+
+
+					<div class="item" id="slide3">
+							<div class="carousel-caption">
+							</div><!--end of carousel caption-->
+					</div><!--end of slide 2-->
+
+		</div><!-- End of carousel-inner-->
+
+		<!--Controls-->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+</div><!--end of my-carousel-->
+
+<div class="row" id="bigCallout">
+
+		<div class="alert alert-success alert-block fade in" id="successAlert">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+         <h4>Success !</h4>
+				 <p>you just made this element display by using j query click the"x" and close this bad boy</p>
+		</div><!--End of alert-->
+
+			<div class="col-12">
+					<!--visible only on small devices-->
+					<div class="well well well-small visible-sm">
+							<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphlicon-phone">Give a missed call</span></a>
+					</div><!--end of well-->
+
+					<div class="well">
+							<div class="page-header">
+									<h1>Conducting Special Batches<small>  Be the first one to enroll</small></h1>
+									<p class="lead">Top 50 students will be provided with scholarship!!!.</p>
+
+                  <a href="#" class="btn btn-large btn-primary" id="alertMe">Enroll</a>
+									<a href="#" class="btn btn-large btn-link">Upcoming courses list</a>
+							</div><!--End of page header-->
+					</div><!--End of well-->
+
+			</div><!--End of col-12-->
+</div><!--End of big callout-->
+
+<div class="row" id="featuresHeading">
+		<div class="col-12">
+				<h2>More features</h2>
+				<p class="lead">This is my panel heading</p>
+		</div><!--End of col-12-->
+</div>
+
+<div class "row" id="features">
+			<div class="col-sm-4 feature">
+						<div class="panel1">
+							<div class="panel-heading">
+								<h3 class="panel-title">Java</h3>
+							</div><!-- End of panel heading-->
+							<img src="images/java.png" alt="html5" class="img-circle">
+							<a href="www.oracle.com/technetwork/java/" target="_blank" class="btn btn-info btn-block">Learn Java</a>
+						</div><!-- End of panel -->
+       </div><!--End of col sm4-->
+
+			 <div class="col-sm-4 feature">
+ 						<div class="panel2">
+ 							<div class="panel-heading">
+ 								<h3 class="panel-title">Hadoop</h3>
+ 							</div><!-- End of panel heading-->
+ 							<img src="images/hadoop.png" alt="html5" class="img-circle">
+ 							<a href="hadoop.apache.org/" target="_blank" class="btn btn-info btn-block">Learn Hadoop</a>
+ 						</div><!-- End of panel -->
+        </div><!--End of col sm4-->
+
+				<div class="col-sm-4 feature">
+						 <div class="panel3">
+							 <div class="panel-heading">
+								 <h3 class="panel-title">Web Design</h3>
+							 </div><!-- End of panel heading-->
+							 <img src="images/webdesign.jpg" alt="html5" class="img-circle">
+							 <a href="www.openwebdesign.org/" target="_blank" class="btn btn-info btn-block">Learn Web Design</a>
+						 </div><!-- End of panel -->
+				 </div><!--End of col sm4-->
+</div>
+
+<div class="row" id="moreInfo">
+
+			<div class="col-sm-6">
+					<h3>Neat tabbable content</h3>
+			<div class="tabbable">
+					<ul class="nav nav-tabs">
+						 	<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+						  <li><a href="#tab2" data-toggle="tab">Section2</a></li>
+					</ul><!--End of navnav tabs-->
+
+					<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span>Our location <small>More like our favourite surf spot</small></h4>
+		              <p>Electronics City, usually referred to as Electronic City, is an IT hub in Anekal taluk in the Indian state of Karnataka, India.[2] It is one of India's largest electronic industrial parks, spread over 332 acres (1.3 km²) in Konappana Agrahara and Doddathogur villages, inside Bangalore, India. It consists of three zones called phases – Phase I, Phase II and Phase III. Electronics City was established by Keonics, Karnataka Electronics,[3] a pioneer in information technology infrastructure development. Keonics Electronics City houses major IT /ITES companies. There are approximately 200 IT/ITES companies located in Electronics City!</p>
+									<p>Transport facility has seen commendable improvement over the last couple of years. BMTC buses to all parts of the city and BIAL to the Bengaluru International Airport, ply through Electronic City. METRO Project Phase 2,[5] between R.V.Road and Bommasandra will be via Electronic City!</p>
+							</div><!--End of tab1-->
+							<div class="tab-pane" id="tab2">
+									<h4>A left floated picture <small>using placehold.it</small></h4>
+									<img src="http://placehold.it/140" class="thumbnail pull-left">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum totam, nostrum corporis odit eius perspiciatis, illo repellat voluptate quod enim. Iusto aut nam qui explicabo tempora rerum, debitis. Placeat, aut?</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia rem corporis quam ab praesentium dolorem magnam dicta explicabo voluptatem iusto, sint, blanditiis ipsa non, nisi, ea architecto deleniti rerum saepe.</p>
+		               <hr>
+									 <a href="#myModal"  role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for a modal window!</a>
+
+              <div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+											<div class="modal-content">
+													<div class="modal-header">
+															<button class="close" data-dismiss="modal">&times;</button>
+														  <h4 class="modal-title">A modal Window</h4>
+                          </div><!--End of modal header-->
+													<div class="modal-body">
+															<h4>Text in a model</h4>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus repudiandae assumenda ex explicabo expedita hic fugiat distinctio reprehenderit officiis deleniti quae eius provident, magni vitae alias ea itaque eaque nemo.</p>
+															<h4>Pophovers in a model</h4>
+															<a href="#" class="btn btn-danger pop">Don't click this button</a>
+															<h4>Tool tips in a modal</h4>
+															<a href="#">This link </a> should have a tooltip and so should <a href="#">this one</a>!
+															<hr>
+															<p><small class="text-muted">PS.This form doesn't do anything.Just a headsup</small></p>
+															<form action="">
+
+															</form>
+															<div class="modal-footer">
+																	<button class="btn btn-default" data-dismiss="modal" type="button">close</button>
+																	<button class="btn btn-primary" type="button">Save changes</button>
+															</div><!--End of modal footer-->
+													</div><!--End of modal body-->
+											</div><!--End of modal content-->
+										</div><!--End of modal fade-->
+              </div><!--End  of my modal-->
+
+						</div><!--End of tab-pane-->
+					</div><!--End of tab content-->
+			</div><!--End of tabbable-->
+		</div><!--End of colsm6-->
+
+		<div class="col-sm-6">
+				<h3>Career Counselling</h3>
+				<p>Our Career Counselling (Career Guidance) through Aptitude Testing helps you match your talents and potentials with your interests and helps you choose appropriate careers from a wide range of choices suited to your abilities - whether you are a student wondering what course of study to pursue, whether you are working and thinking of changing your job or whether you are seeking voluntary retirement</p>
+
+			 	<h4>A list group</h4>
+
+			 			<div class="list-group">
+          			<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">What</h4>
+								<p class="list-group-item-text">What is the best career fou you.?? Get to know by our experts.</p>
+							  </a>
+
+          			<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">Why</h4>
+								<p class="list-group-item-text">Be not in a hurry to take decisions??</p>
+							  </a>
+
+          			<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">When</h4>
+								<p class="list-group-item-text">This is the right time to take actions in proper Guidance...</p>
+							  </a>
+						</div><!--End of list group-->
+								</div><!--End of colsm6-->
+</div><!--End of more info-->
+<hr>
+<div class="row" id="moreCourses">
+		<div class="col-12">
+				<h3>Learn more about web design</h3>
+				<div class="thumbnails row">
+						<div class="col-6">
+								<div class="thumbnail">
+										<img src="images/webhosting.jpg" alt="Web Hosting 101">
+                      	<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>39</div>
+										<div class="caption">
+											<h3>Web hosting</h3>
+
+											<p><a href="#" class="btn btn-primary btn-small" target="_blank">Take Course</a><a href="https://www.udemy.com/web-hosting-101" class="btn  btn-small btn-link" target="_blank"></a>Learn more</p>
+
+										</div><!--End of caption-->
+									</div><!--End of thumbnail-->
+						</div><!--End of col-6-->
+
+						<div class="col-6">
+								<div class="thumbnail">
+										<img src="images/seminar.jpg" alt="PSD to HTML5">
+	                  <div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>FREE</div>
+										<div class="caption">
+											<h3>SEMINAR ON LATEST TECHNOLOGIES</h3>
+
+											<p><a href="#" class="btn btn-primary btn-small" target="_blank">Take Course</a><a href="https://www.udemy.com/web-hosting-101" class="btn  btn-small btn-link" target="_blank"></a>Learn more</p>
+
+										</div><!--End of caption-->
+									</div><!--End of thumbnail-->
+						</div><!--End of col-6-->
+				</div><!--End of thumbnails row-->
+		</div><!--End of col-12-->
+</div><!--End of more courses-->
+
+</div>
+
+<footer>
+		<div class="container">
+				<div class="row">
+
+						<div class="col-sm-2">
+						<h6>Copyright &copy2016(ketan);</h6>
+						</div><!--End of colsm2-->
+
+						<div class="col-sm-4">
+									<h6>About us</h6>
+									<p>One of the most prominent and action initiator on latest technologies.We turn a regular programmer to a full stack one.life is all about achievement and change.</p>
+						</div><!--End of colsm4-->
+
+						<div class="col-sm-2">
+									<h6>Navigation</h6>
+									<ul class="unstyled">
+											<li><a href="#">Home</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="#">Links</a></li>
+										  <li><a href="#">Contacts</a></li>
+									</ul>
+						</div><!--End of colsm2-->
+
+						<div class="col-sm-2">
+							<h6>Follow Us</h6>
+							<ul class="unstyled">
+									<li><a href="#">Twitter</a></li>
+									<li><a href="#">Facebook</a></li>
+									<li><a href="#">Twitter</a></li>
+  							</ul>
+						</div><!--End of colsm2-->
+
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span>by Ketan</h6>
+				</div>
+			</div>
+		</div><!--End of container-->
+</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
